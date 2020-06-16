@@ -1,0 +1,11 @@
+{
+    "apps": [{
+        "name": "key_grabber",
+        "script": "./main.py",
+        "args": "-u ExtraHash -w -l",
+        "wait_ready": true,
+        "autorestart": false,
+        "max_restarts": 5,
+        "interpreter" : "python3"
+    }]
+}
