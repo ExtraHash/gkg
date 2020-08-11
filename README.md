@@ -11,4 +11,5 @@ Grabs ssh keyfiles for a specified username from the GitHub API and writes them 
 ```
 -u  The username to fetch for
 -w  Write to the keyfile. If not appended, keys will be printed to the terminal.
+-l  Loops the script forever.
 ```
